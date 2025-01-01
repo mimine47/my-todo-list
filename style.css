@@ -1,0 +1,94 @@
+body{
+    font-family:  "Arial", sans-serif;
+    background-color: rgb(245, 232, 212);
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgb(184, 167, 14);
+    padding:20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+  }
+  h1{
+    color:#007bff;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h1 i {
+    margin-right: 10px;
+  }
+  h2 {
+    margin-top: 30px;
+    color: #333;
+  }
+  .input-area {
+    display: flex;
+     justify-content: center;
+     color: #333;
+  }
+  #task-input {
+    padding: 10px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 70%;
+  }
+  .btn{
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  .btn i {
+    margin-right: 5px;
+  }
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  .task-list {
+    list-style: none;
+    padding: 0;
+  }
+  .task-list li {
+    background-color: #e9ecef;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation: fadeIn 0.5s;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }  
+  .remove-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .remove-btn:hover {
+    background-color: #c82333;
+  }
+  
